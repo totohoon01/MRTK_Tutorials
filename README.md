@@ -23,3 +23,17 @@
    - Next(Ignore the error)
    - Apply
 8. Project Settings->Player->Publishing Settings->Package name = MRTK-Tutorials
+
+## SceneSample
+
+1. Mixed Reality -> Toolkit -> Add to Scene and Configure
+2. Add Object('cude'), Add script **NearInteractionGrabble, Object Manipulator**
+3. QEWASD == Moving, Space/LShift == RL
+
+## Build
+
+1. Build on Unity
+2. Open **.sln** in **Visual Studio**
+3. **Relseae, ARM64**
+4. Start without Debugging
+5. Bulid -> Publich app
