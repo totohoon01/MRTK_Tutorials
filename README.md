@@ -47,3 +47,17 @@
 3. Check Enable, Clone Default profile.
 4. **XR SDK Windows Mixed Reality Spatial Mesh Observer** -> clone
 5. Display Settings -> Occulsion, 인식은 하되 표시를 안함. 필요없으면 공간인식을 꺼두는게 성능향상
+
+### Rover Examples
+
+1. Model 구성
+2. RoverParts에 **GridObjectCollection** 추가
+   - 정렬 유형: 사전순
+   - 레이아웃: 수평
+   - 셀 너비: 0.25
+   - 부모에서의 거리: 0.38
+   - Update Collection
+   - 오브젝트 정렬용??
+3. **Packages > Mixed Reality Toolkit Foundation > SDK > Features > Utilities > Solvers**
+   - Solver : 오브젝트가 사용자 / 다른 오브젝트를 따라다니게 설정 스크립트
+4. Chevron프리팹(0,0,2) -> Directional Indicator 추가
