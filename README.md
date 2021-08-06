@@ -1,6 +1,6 @@
 # MRTK Tutorials
 
-## Basic Settings
+## Settings
 
 1. Create Project with 2019 / <b>2020 LTS</b>
 2. Open Build Settings,
@@ -24,16 +24,26 @@
    - Apply
 8. Project Settings->Player->Publishing Settings->Package name = MRTK-Tutorials
 
-## SceneSample
-
-1. Mixed Reality -> Toolkit -> Add to Scene and Configure
-2. Add Object('cude'), Add script **NearInteractionGrabble, Object Manipulator**
-3. QEWASD == Moving, Space/LShift == RL
-
 ## Build
 
 1. Build on Unity
 2. Open **.sln** in **Visual Studio**
 3. **Relseae, ARM64**
 4. Start without Debugging
-5. Bulid -> Publich app
+5. Bulid -> Publish app
+
+<hr>
+
+### Scene Settings & Manipulating Object
+
+1. Mixed Reality -> Toolkit -> Add to Scene and Configure
+2. Add Object('cude'), Add script **NearInteractionGrabble, Object Manipulator**
+3. QEWASD == Moving, Space/LShift == RL
+
+### Creating Custom Profile
+
+1. In **"MixedRealityToolkit"** Object, **DefaultHoloLens2ConfigurationProfile** -> clone
+2. In custom profile, select **'Spatial Awareness'**
+3. Check Enable, Clone Default profile.
+4. **XR SDK Windows Mixed Reality Spatial Mesh Observer** -> clone
+5. Display Settings -> Occulsion, 인식은 하되 표시를 안함. 필요없으면 공간인식을 꺼두는게 성능향상
